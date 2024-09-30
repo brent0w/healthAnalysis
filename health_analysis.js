@@ -48,7 +48,6 @@ function searchCondition() {
         resultDiv.innerHTML = 'An error occurred while fetching data.';
         });
     }
-    btnSearch.addEventListener('click', searchCondition);
 
 function generateReport() {
         const numPatients = patients.length;
@@ -88,4 +87,5 @@ function generateReport() {
     }
 
 addPatientButton.addEventListener("click", addPatient);
+btnSearch.addEventListener('click', searchCondition);
 
